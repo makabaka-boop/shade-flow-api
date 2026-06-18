@@ -1,0 +1,16 @@
+{
+  "name": "shade-flow-api",
+  "version": "1.0.0",
+  "description": "纸艺灯罩工艺管理系统 API",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.13.7",
+    "better-sqlite3": "^11.7.0",
+    "hono": "^4.6.14"
+  }
+}
