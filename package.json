@@ -1,0 +1,27 @@
+{
+  "name": "shade-flow-api",
+  "version": "1.0.0",
+  "description": "纸艺灯罩工艺管理系统，覆盖骨架成型、裱贴干燥、巡检返修与交付判定，支持批次追踪、异常识别、超期提醒、多条件查询及统计分析。",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/makabaka-boop/shade-flow-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/makabaka-boop/shade-flow-api/issues"
+  },
+  "homepage": "https://github.com/makabaka-boop/shade-flow-api#readme",
+  "dependencies": {
+    "@hono/node-server": "^2.0.5",
+    "better-sqlite3": "^12.11.1",
+    "hono": "^4.12.26"
+  }
+}
